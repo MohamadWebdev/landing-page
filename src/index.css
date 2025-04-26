@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @font-face {
   font-family: "Inter";
-  src: url(../public/font/Inter.ttf);
+  src: url(./font/Inter.ttf);
 }
 
 *{
@@ -33,4 +33,7 @@
   --color-Error: #E53835;
   --color-Success: #2E7D31;
   --font-Inter: "Inter", sans-serif;
+  --breakpoint-lg: 1000px;
+  --breakpoint-md:600px;
+  --breakpoint-sm: 400px;
 }
