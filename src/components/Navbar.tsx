@@ -1,9 +1,11 @@
 import { FaLongArrowAltRight } from "react-icons/fa";
 import ResponsiveMenu from "./ResponsiveMenu";
+import { UseContext } from "../context/contextProvider";
 
 const Navbar = () => {
+  const {toggle}:any = UseContext();
   return (
-    <section className="w-full py-[40px] flex justify-between items-center z[5]">
+    <section className={`w-full py-[20px] sha flex justify-between items-center z[5] ${!toggle && 'relative'} _shadow`}>
       <div className="flex gap-2 justify-center items-center">
         <img src="/logo.png" alt="logo" className="w-[24px] h-[17px]" />
         <h1 className="text-xl font-bold text-Secondary">Nexcent</h1>

@@ -17,6 +17,7 @@
   --color-naturalSilver: #F5F7FA;
   --color-naturalWhite: #FFFFFF;
   --color-Primary: #4CAF4F;
+  --color-ShadowPrimary: #28CB8B;
   --color-Secondary: #263238;
   --color-Info: #2194f3;
   --color-Shade1: #43A046;
@@ -45,4 +46,8 @@ body{
 
 #root{
   height: 100%;
+}
+
+._shadow{
+  box-shadow: 0px 2px 12px -9px #263238;
 }
