@@ -37,3 +37,12 @@
   --breakpoint-md:600px;
   --breakpoint-sm: 400px;
 }
+
+body{
+  position: relative;
+  height: 100vh;
+}
+
+#root{
+  height: 100%;
+}
