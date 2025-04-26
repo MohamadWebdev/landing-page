@@ -1,9 +1,9 @@
 const Hero = () => {
   return (
-    <div className="w-full flex justify-between py-10">
+    <div className="w-full flex min-[790px]:flex-row flex-col-reverse justify-between items-center py-10 flex-wrap">
       <div className="flex flex-col gap-5">
-        <h1 className="text-naturalD_Grey text-[44.55px] font-semibold leading-[52.9px] text-left max-w-[457.32px]">
-          Lessons and insights <span className="text-">from 8 years</span>
+        <h1 className="text-naturalD_Grey sm:text-[44.55px] text-[25px] font-semibold leading-[30px] sm:leading-[52.9px] text-left max-w-[457.32px]">
+          Lessons and insights <br className="sm:hidden" /> <span className="text-Primary">from 8 years</span>
         </h1>
 
         <span className="text-[11.14px] max-w-[457.32px] text-naturalGrey leading-[16.7px]">
@@ -15,8 +15,8 @@ const Hero = () => {
         </button>
       </div>
 
-      <div className="">
-        <img src="./heroImg.png" alt="heroImg" className="w-[280px]" />
+      <div className="min-[790px]:mt-0 mt-[50px]s">
+        <img src="./heroImg.png" alt="heroImg" className="sm:w-[280px] w-[200px]" />
       </div>
     </div>
   );
