@@ -6,6 +6,7 @@ import Unlock from "./components/Unlock";
 import Achievements from "./components/Achievements";
 import Calender from "./components/Calender";
 import Customers from "./components/Customers";
+import CommunityUpdates from "./components/CommunityUpdates";
 import { UseContext } from "./context/contextProvider";
 
 const App = () => {
@@ -46,14 +47,18 @@ const App = () => {
         {/* Calender */}
         <Calender />
       </div>
-      
+
       <div className="bg-naturalSilver w-full">
         <div className="w-full max-w-[1002.34px] mx-auto min-[1000px]:px-20 px-5">
           {/* Customers */}
           <Customers />
         </div>
       </div>
-      {/* CommunityUpdates */}
+
+      <div className="w-full max-w-[1002.34px] mx-auto min-[1000px]:px-20 px-5">
+        {/* CommunityUpdates */}
+        <CommunityUpdates />
+      </div>
       {/* Footer */}
     </div>
   );
