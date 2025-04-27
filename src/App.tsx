@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Unlock from "./components/Unlock";
 import Achievements from "./components/Achievements";
+import Calender from "./components/Calender";
 import { UseContext } from "./context/contextProvider";
 
 const App = () => {
@@ -22,8 +23,8 @@ const App = () => {
         </div>
       </div>
 
-      {/* Clients */}
       <div className="w-full max-w-[1002.34px] mx-auto min-[1000px]:px-20 px-5">
+        {/* Clients */}
         <Clients />
 
         {/* Community */}
@@ -39,7 +40,11 @@ const App = () => {
           <Achievements />
         </div>
       </div>
-      {/* Calender */}
+
+      <div className="w-full max-w-[1002.34px] mx-auto min-[1000px]:px-20 px-5">
+        {/* Calender */}
+        <Calender/>
+      </div>
       {/* Customers */}
       {/* CommunityUpdates */}
       {/* Footer */}
