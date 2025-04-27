@@ -1,6 +1,6 @@
 const Unlock = () => {
   return (
-    <section className="w-full flex min-md:justify-between min-md:items-center max-md:flex-col mt-20 flex-wrap">
+    <section className="w-full flex min-[780px]:justify-between justify-center min-md:items-center max-md:flex-col mt-20 flex-wrap">
       <div className="max-md:w-full flex justify-center items-center">
         <img src="./unlock.png" alt="unlock" />
       </div>
