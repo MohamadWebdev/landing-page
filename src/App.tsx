@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Unlock from "./components/Unlock";
 import Achievements from "./components/Achievements";
 import Calender from "./components/Calender";
+import Customers from "./components/Customers";
 import { UseContext } from "./context/contextProvider";
 
 const App = () => {
@@ -43,9 +44,15 @@ const App = () => {
 
       <div className="w-full max-w-[1002.34px] mx-auto min-[1000px]:px-20 px-5">
         {/* Calender */}
-        <Calender/>
+        <Calender />
       </div>
-      {/* Customers */}
+      
+      <div className="bg-naturalSilver w-full">
+        <div className="w-full max-w-[1002.34px] mx-auto min-[1000px]:px-20 px-5">
+          {/* Customers */}
+          <Customers />
+        </div>
+      </div>
       {/* CommunityUpdates */}
       {/* Footer */}
     </div>
