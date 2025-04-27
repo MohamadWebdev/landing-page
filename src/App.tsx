@@ -1,4 +1,5 @@
 import Clients from "./components/Clients";
+import Community from "./components/Community";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import { UseContext } from "./context/contextProvider";
@@ -20,10 +21,11 @@ const App = () => {
 
       {/* Clients */}
       <div className="w-full max-w-[1002.34px] mx-auto min-[1000px]:px-20 px-5">
-        <Clients/>
-      </div>
+        <Clients />
 
-      {/* Community */}
+        {/* Community */}
+        <Community />
+      </div>
       {/* Unlock */}
       {/* Achievements */}
       {/* Calender */}
