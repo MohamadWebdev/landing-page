@@ -2,6 +2,7 @@ import Clients from "./components/Clients";
 import Community from "./components/Community";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Unlock from "./components/Unlock";
 import { UseContext } from "./context/contextProvider";
 
 const App = () => {
@@ -25,8 +26,10 @@ const App = () => {
 
         {/* Community */}
         <Community />
+
+        {/* Unlock */}
+        <Unlock />
       </div>
-      {/* Unlock */}
       {/* Achievements */}
       {/* Calender */}
       {/* Customers */}
