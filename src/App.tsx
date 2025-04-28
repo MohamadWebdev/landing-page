@@ -8,7 +8,7 @@ import {
   Calender,
   Customers,
   CommunityUpdates,
-} from "./components"
+} from "./components";
 
 import { UseContext } from "./context/contextProvider";
 import Footer from "./components/Footer";
@@ -16,10 +16,18 @@ import Footer from "./components/Footer";
 const App = () => {
   const { toggle }: any = UseContext();
   return (
-    <div className={`w-full ${toggle} h-full overflow-y-auto z-0`}>
-      <div className="w-full max-w-[1002.34px] mx-auto min-[1000px]:px-20 px-5">
-        {/* Navbar */}
-        <Navbar />
+    <div
+      className={`w-full ${
+        toggle && "overflow-y-hidden"
+      } h-full overflow-y-auto z-0 _shadow`}
+    >
+      <div className={`${!toggle && "relative"} _shadow`}>
+        <div
+          className={`w-full max-w-[1002.34px] mx-auto min-[1000px]:px-20 px-5`}
+        >
+          {/* Navbar */}
+          <Navbar />
+        </div>
       </div>
 
       {/* Hero */}

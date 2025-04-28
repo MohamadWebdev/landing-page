@@ -8,7 +8,7 @@ const AchievementsCard = ({
   title: string;
 }) => {
   return (
-    <div className="flex items-center gap-4 max-w-[180px] w-full">
+    <div className="flex items-center max-sm:justify-center gap-4 min-sm:max-w-[180px] w-full">
       <img src={img} alt="user2" className="w-[50px]" />
 
       <div className="">

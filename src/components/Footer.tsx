@@ -15,7 +15,7 @@ const Footer = () => {
           Pellentesque suscipit fringilla libero eu.
         </h1>
 
-        <button className="bg-Primary w-[140px] h-[40px] flex justify-center items-center gap-3 text-naturalWhite rounded-[5px]">
+        <button className="bg-Primary sm:w-[140px] w-full h-[40px] flex justify-center items-center gap-3 text-naturalWhite rounded-[5px]">
           Get a Demo <FaLongArrowAltRight />
         </button>
       </div>

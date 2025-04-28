@@ -4,7 +4,7 @@ const CommunityUpdates = () => {
   return (
     <section className="w-full flex-col flex justify-center items-center mt-16 mb-5">
       <div className="flex justify-center items-center flex-col w-full gap-3">
-        <h1 className="text-[26px] text-naturalD_Grey font-semibold leading-[30px]">
+        <h1 className="text-center text-[26px] text-naturalD_Grey font-semibold leading-[30px]">
           Caring is the new marketing
         </h1>
 

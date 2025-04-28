@@ -10,12 +10,12 @@ const Hero = () => {
           Where to grow your business as a photographer: site or social media?
         </span>
 
-        <button className="w-[89.55px] h-[36.49px] bg-Primary text-naturalWhite rounded-[2.78px]">
+        <button className="sm:w-[89.55px] w-fulls h-[36.49px] bg-Primary text-naturalWhite rounded-[2.78px]">
           Register
         </button>
       </div>
 
-      <div className="min-[790px]:mt-0 mt-[50px]s">
+      <div className="min-[790px]:mt-0 mt-[50px]">
         <img src="./heroImg.png" alt="heroImg" className="sm:w-[280px] w-[200px]" />
       </div>
     </div>
