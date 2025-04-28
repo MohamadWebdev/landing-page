@@ -1,12 +1,15 @@
-import Clients from "./components/Clients";
-import Community from "./components/Community";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import Unlock from "./components/Unlock";
-import Achievements from "./components/Achievements";
-import Calender from "./components/Calender";
-import Customers from "./components/Customers";
-import CommunityUpdates from "./components/CommunityUpdates";
+import {
+  Clients,
+  Community,
+  Hero,
+  Navbar,
+  Unlock,
+  Achievements,
+  Calender,
+  Customers,
+  CommunityUpdates,
+} from "./components"
+
 import { UseContext } from "./context/contextProvider";
 import Footer from "./components/Footer";
 
