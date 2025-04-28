@@ -34,6 +34,8 @@ const Footer = () => {
             <div className="flex flex-col md:justify-start justify-center md:items-start items-center gap-1">
               <h3 className="text-naturalSilver text-[10px] leading-[13px] text-left">
                 Copyright © 2020 Landify UI Kit.
+                <br /><br />
+                Developed by MWD
               </h3>
 
               <h3 className="text-naturalSilver text-[10px] leading-[13px] text-left">
