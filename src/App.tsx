@@ -8,6 +8,7 @@ import Calender from "./components/Calender";
 import Customers from "./components/Customers";
 import CommunityUpdates from "./components/CommunityUpdates";
 import { UseContext } from "./context/contextProvider";
+import Footer from "./components/Footer";
 
 const App = () => {
   const { toggle }: any = UseContext();
@@ -59,7 +60,11 @@ const App = () => {
         {/* CommunityUpdates */}
         <CommunityUpdates />
       </div>
-      {/* Footer */}
+
+      <div className="bg-naturalSilver w-full">
+        {/* Footer */}
+        <Footer />
+      </div>
     </div>
   );
 };
