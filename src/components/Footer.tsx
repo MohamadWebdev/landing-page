@@ -9,7 +9,7 @@ import { FaEarthAsia } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <section className="w-full mt-20">
+    <section className="w-full mt-20 pt-10">
       <div className="w-full max-w-[1002.34px] mx-auto min-[1000px]:px-20 px-5 flex flex-col justify-center items-center gap-10">
         <h1 className="font-semibold text-[45px] leading-[50px] max-w-[600px] text-naturalBlack text-center">
           Pellentesque suscipit fringilla libero eu.
@@ -20,8 +20,8 @@ const Footer = () => {
         </button>
       </div>
 
-      <div className="bg-naturalBlack mt-10">
-        <div className="w-full flex p-10 md:justify-between justify-center h-full items-center flex-wrap">
+      <div className="bg-naturalBlack mt-10 w-full">
+        <div className="w-full max-w-[1002.34px] mx-auto flex p-20 md:justify-between justify-center h-full items-center flex-wrap">
           <div className="flex h-full flex-col md:justify-between justify-center items-center md:items-start gap-5">
             <div className="flex gap-2 justify-center items-center">
               <img src="./logo2.png" alt="logo" className="w-auto h-auto" />
